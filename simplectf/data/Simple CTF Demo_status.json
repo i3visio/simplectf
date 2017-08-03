@@ -1,0 +1,15 @@
+{
+  "paco": {
+    "points": 200, 
+    "solved_challenges": {
+      "challenge-2": 100, 
+      "challenge-1": 100
+    }
+  }, 
+  "pepe": {
+    "points": 100, 
+    "solved_challenges": {
+      "challenge-1": 100
+    }
+  }
+}
