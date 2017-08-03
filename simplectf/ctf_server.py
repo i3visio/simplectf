@@ -137,11 +137,11 @@ Instructions
 ------------
 
 As a user, the only things you need to know are the following:
-- Go to /license to show the license of the application.
+- Go to /license to show the license of the code used.
 - Go to /list to show the available challenges.
 - Go to /rank to show the current leaderboard.
-- Go to /c/<challenge-title> to show the instructions of that challenge.
-- Go to /c/<challenge-title>/<username>/<answer> to send an answer as username.
+- Go to /c/<challenge> to show the instructions of that challenge.
+- Go to /c/<challenge>/<username>/<answer> to send an answer as username.
 - Go to /u/<username> to show the challenges solved by the user.
 
 That's all!
@@ -151,7 +151,7 @@ License and Disclaimer
 
 This (dummy?) CTF is powered by a simple curl-compliant CTF licensed as AGPLv3.
 Its source code and installation instructions can be found in the Github
-project: https://github.com/i3visio/simple-ctf
+project: https://github.com/i3visio/simplectf
 
 Because you don't need a web browser to hack like a *pro*! Enjoy! :)""" + "\n"
     return createResponse(text)

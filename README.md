@@ -26,7 +26,7 @@ pip install -r requirements --user
 Change directory to the `simplectf` folder and run the server with the rules
 file. There is one as an example in the `config` folder.
 ```
-python ctf_server.py --rules config/sample-ctf.cfg
+python ctf_server.py --rules config/example.cfg
 ```
 
 By default, the server is available in `localhost:5000`. You can check it with:
@@ -38,7 +38,7 @@ If you want to make the server fully available to anyone connecting to the
 machine (we hope you understand what you are doing!), launch it setting the
 `--host` option:
 ```
-python ctf_server.py --rules config/sample-ctf.cfg --host 0.0.0.0
+python ctf_server.py --rules config/example.cfg --host 0.0.0.0
 ```
 
 Authors
